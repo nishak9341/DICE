@@ -1,0 +1,65 @@
+body {
+
+    background-color: #5da8a8;
+    text-align: center;
+  }
+  
+  .container {
+    margin-top: 10px;
+  }
+  
+  h1 {
+    font-size: 40px;
+  }
+  
+  .dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .dice-container {
+    margin-right: 20px;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+  
+  .dice img {
+    margin-right: 20px;
+    animation: rotate 2s linear inherit;
+    height: 50vh;
+    width: 25vw;
+  }
+  
+  
+  .dice img {
+    margin-right: 12px;
+    animation: rotate 1s linear inherit;
+    height: 50vh;
+    width: 25vw;
+  }
+  button {
+    margin-top: 12px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #64af67;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  button:hover {
+    background-color: #7a0d7a;
+  }
+  
+  #total {
+    font-size: 24px;
+  }
